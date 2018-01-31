@@ -1,0 +1,132 @@
+:root {
+    --test1: 1.7em;
+}
+body {
+    word-break: normal;
+    padding: 0px;
+    margin: 0px;
+    background-color: black;
+    color: rgba(248,131,121, 0.9);
+    font-size: var(--test1);
+    /*font-family: 'VT323', monospace;*/
+    font-family: 'Nothing You Could Do', cursive;
+    background-image: url(Gallery/Japan3.png);
+    background-size: cover;
+    background-position: 0% 10%;
+}
+.headerHello {
+    position: relative;
+    top: 95px;
+    margin: auto;
+    width: 50%;
+    background-color: rgba(66, 64, 64, 0.4);
+}
+.headerHello form {
+    padding: 10px;
+    position: relative;
+}
+input {
+    background-color: rgba(66, 64, 64, 0);
+    border: 0px;
+    outline: none;
+    width: 100%;
+    color: rgba(248,131,121, 0.9);
+    text-align: center;
+    font-size: 1.7em;
+    font-family: 'Nothing You Could Do', cursive;
+}
+input::-webkit-input-placeholder {
+    color: rgba(248,131,121, 0.9);
+}
+.timeline {
+    position: relative;
+    top: 135px;
+    display: flex;
+    justify-content: center;
+}
+.timeline ul {
+    padding: 0px;
+    margin: auto;
+}
+.timeline ul li {
+    width: auto;
+    text-align: center;
+    padding: 5px 15px;
+    background-color: rgba(66, 64, 64, 0.4);
+    display: inline-block;
+    list-style-type: none;
+    letter-spacing: 2.5px;
+}
+#date, #day, #time{
+    padding: 0px;
+    margin: 0px;
+    text-align: center;
+}
+#time {
+    width: 100px;
+    position: relative;
+    right: 2px;
+}
+.mainwrap {
+    position: absolute;
+    max-width: 50%;
+    min-width: 50%;
+    max-height: 40%;
+    min-height: 40%;
+    right: 0;
+    left: 0;
+    top: 200px;
+    bottom: 0;
+    margin: auto;
+    background-color: rgba(66, 64, 64, 0.4);
+}
+.list1 ul{
+    text-align: center;
+    list-style-type: none;
+    letter-spacing: 2.5px;
+}
+.inside {
+    display: flex;
+    justify-content: space-between;
+    justify-content: center;
+    padding: 0px;
+    position: relative;
+}
+.inside ul{
+    margin: 0px 40px;
+}
+.intres {
+    list-style-type: none;
+    padding: 0px;
+    display: grid;
+}
+.study {
+    list-style-type: none;
+    padding: 0px;
+    display: grid;
+}
+.other {
+    list-style-type: none;
+    padding: 0px;
+    display: grid;
+}
+a {
+    font-size: 1em;
+    text-decoration: none;
+    color: rgb(121,175,248);
+    transition: all 0.3s ease;
+    -moz-transition: all 0.3s ease;
+}
+a:hover {
+    text-shadow: 10px 10px 5px black;
+    -moz-transition: all .s ease;
+}
+:-moz-placeholder { /* Firefox 18- */
+    opacity: 0.9 !important;
+}
+::-moz-placeholder {  /* Firefox 19+ */
+    opacity: 0.9 !important;
+}
+input:required {
+    box-shadow:none;
+}
