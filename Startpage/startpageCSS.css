@@ -10,7 +10,7 @@ body {
     font-size: var(--test1);
     /*font-family: 'VT323', monospace;*/
     font-family: 'Nothing You Could Do', cursive;
-    background-image: url(Gallery/Japan3.png);
+    background-image: url(<!--Add your image here-->);
     background-size: cover;
     background-position: 0% 10%;
 }
