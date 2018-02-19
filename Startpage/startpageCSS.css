@@ -8,7 +8,6 @@ body {
     background-color: black;
     color: rgba(248,131,121, 0.9);
     font-size: var(--test1);
-    /*font-family: 'VT323', monospace;*/
     font-family: 'Nothing You Could Do', cursive;
     background-image: url(<!--Add your image here-->);
     background-size: cover;
