@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+   <head>
+       <title>H O M E</title>
+       <link rel="icon" type="image/png"
+       href="">
+       <link type="text/css" rel="stylesheet" href="StartPageCSS.css"> <!--put your's icon here-->
+       <link rel="icon" href="null">
+       <meta charset="utf-8">
+       <meta name="viewport" content="width=device-width, initial-scale=1">
+       <link href="https://fonts.googleapis.com/css?family=VT323" rel="stylesheet">
+   </head>
+    <body>
+       <div class="secdiv">
+            <ul id="ulhide1">
+                <li><a href="" target="_blank">*</a></li>
+                <li><a href="" target="_blank">*</a></li>    <!--Put your links here-->
+                <li><a href="" target="_blank">*</a></li>
+                <li><a href="" target="_blank">*</a></li>
+            </ul>
+            <ul id="ulhide2">
+                <li><a href="" target="_blank">*</a></li>
+                <li><a href="" target="_blank">*</a></li>    <!--Put your links here-->
+                <li><a href="" target="_blank">*</a></li>
+                <li><a href="" target="_blank">*</a></li>
+                <li><a href="" target="_blank">*</a></li>
+            </ul>
+            <ul id="ulhide3">
+                <li><a href="" target="_blank">*</a></li>
+                <li><a href="" target="_blank">*</a></li>     <!--Put your links here-->
+                <li><a href="" target="_blank">*</a></li>
+            </ul>
+        </div>
+        <div class="maindiv">
+            <ul class="listmain">
+                <li>
+                <p onclick="changeMDivI()">Interests</p>
+                </li>
+                <li><p onclick="changeMDivS()">Study</p></li>
+                <li><p onclick="changeMDivO()">Other</p></li>
+            </ul>
+        </div>
+        <div><p id="time"></p></div>
+        <div class="headerSearch">
+            <!--You can change the duckduckgo.com to your's prefered search engine here:
+                                        ||
+                                        \/                                                -->
+               <form action="https://duckduckgo.com/" class="searchbox" id="sbb" method="get" name="searchform" onsubmit="return noValueFunc();" target="_blank"> <!--don't forget to change the "name" according to the search engine
+                                                       ||
+                                                       \/                        -->
+                <input class="typesearch" id="tsb" name="q" placeholder="What do I do?" type="text" autocomplete="off">
+            </form>
+       </div>
+        <script src="StartPage2JS.js"></script>
+    </body>
+</html>
