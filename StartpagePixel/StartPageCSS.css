@@ -52,9 +52,11 @@
                 list-style-type: none;
                 text-align: center;
                 transition: all 0.5s linear;
-                /*
-                background-color: rgba(24, 0, 103, 0.8);
-                box-shadow: 0 0 1em;
+                /*                                            If you want a box around the links
+                box-shadow: 0em 0em 2em rgb(37, 30, 214);
+                background-color: rgba(37, 30, 214, 0.46);
+                border: 0em solid #0000ff;
+                border-radius: 10em;
                 */
             }
             #ulhide1 li {            /*change according to your's display resolution(if needed)*/
@@ -71,9 +73,11 @@
                 list-style-type: none;
                 text-align: center;
                 transition: all 0.5s linear;
-                /*
-                background-color: rgba(24, 0, 103, 0.8);
-                box-shadow: 0 0 1em;
+                /*                                            If you want a box around the links
+                box-shadow: 0em 0em 2em rgb(37, 30, 214);
+                background-color: rgba(37, 30, 214, 0.46);
+                border: 0em solid #0000ff;
+                border-radius: 10em;
                 */
             }
             #ulhide2 li {            /*change according to your's display resolution(if needed)*/
@@ -90,9 +94,11 @@
                 list-style-type: none;
                 text-align: center;
                 transition: all 0.5s linear;
-                /*
-                background-color: rgba(24, 0, 103, 0.8);
-                box-shadow: 0 0 1em;
+                /*                                            If you want a box around the links
+                box-shadow: 0em 0em 2em rgb(37, 30, 214);
+                background-color: rgba(37, 30, 214, 0.46);
+                border: 0em solid #0000ff;
+                border-radius: 10em;
                 */
             }
             #ulhide3 li {            /*change according to your's display resolution(if needed)*/
