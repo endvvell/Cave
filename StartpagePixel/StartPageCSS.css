@@ -1,10 +1,10 @@
             html {
                 min-width: 100%;
             }
-            body {                /*change according to your's display resolution(if needed)*/
+            body {                /*change according to display resolution(if needed)*/
                 margin-top: 11.3%;
                 padding: 0px;
-                background-image: url(pixelcity.png); /*Put your's image here*/
+                background-image: url(pixelcity.png); /*Put image here*/
                 background-size: 120%;
                 background-repeat: repeat;
                 color: #4AAFFC;
@@ -29,20 +29,20 @@
                 padding: 0;
                 list-style-type: none;
             }
-            .listmain li {           /*change according to your's display resolution(if needed)*/
+            .listmain li {           /*change according to display resolution(if needed)*/
                 display: inline-block;
                 text-align: center;
                 transition: 0.5s;
                 padding: 0% 8%;
             }
-            .secdiv {                /*change according to your's display resolution(if needed)*/
+            .secdiv {                /*change according to display resolution(if needed)*/
                 position: relative;
                 left: 56%;
                 padding: 0;
                 width: 13%;
                 height: 12em;
             }
-            #ulhide1 {               /*change according to your's display resolution(if needed)*/
+            #ulhide1 {               /*change according to display resolution(if needed)*/
                 position: absolute;
                 top: 1.2em;
                 width: 100%;
@@ -59,11 +59,11 @@
                 border-radius: 10em;
                 */
             }
-            #ulhide1 li {            /*change according to your's display resolution(if needed)*/
+            #ulhide1 li {            /*change according to display resolution(if needed)*/
                 width: 100%;
                 padding: 4%;
             }
-            #ulhide2 {               /*change according to your's display resolution(if needed)*/
+            #ulhide2 {               /*change according to display resolution(if needed)*/
                 position: absolute;
                 top: 1.2em;
                 visibility: hidden;
@@ -80,11 +80,11 @@
                 border-radius: 10em;
                 */
             }
-            #ulhide2 li {            /*change according to your's display resolution(if needed)*/
+            #ulhide2 li {            /*change according to display resolution(if needed)*/
                 width: 100%;
                 padding: 4% 4%;
             }
-            #ulhide3 {               /*change according to your's display resolution(if needed)*/
+            #ulhide3 {               /*change according to display resolution(if needed)*/
                 position: absolute;
                 top: 1.2em;
                 visibility: hidden;
@@ -101,7 +101,7 @@
                 border-radius: 10em;
                 */
             }
-            #ulhide3 li {            /*change according to your's display resolution(if needed)*/
+            #ulhide3 li {            /*change according to display resolution(if needed)*/
                 width: 100%;
                 padding: 4%;
             }
@@ -122,13 +122,13 @@
                 text-shadow: 0px 0px 5px #ff0000;
                 transition: all 0.2s linear
             }
-            #time {                /*change according to your's display resolution(if needed)*/
+            #time {                /*change according to display resolution(if needed)*/
                 position: absolute;
                 left: 68.3%;
                 bottom: 2.1em;
                 opacity: 0.95;
             }
-            .headerSearch {        /*change according to your's display resolution(if needed)*/
+            .headerSearch {        /*change according to display resolution(if needed)*/
                 position: absolute;
                 bottom: 10.2em;
                 left: 36%;
@@ -153,7 +153,7 @@
                 opacity: 1 !important;
             }
             @-moz-document url-prefix() {
-                #time {                /*change according to your's display resolution(if needed)*/
+                #time {                /*change according to display resolution(if needed)*/
                     position: absolute;
                     left: 68.27%;
                     bottom: 2.23em;
