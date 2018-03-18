@@ -1,0 +1,162 @@
+html {
+    min-width: 100%;
+    max-width: 100%;
+}
+body {                /*change according to your's display resolution(if needed)*/
+    margin-top: 11.3%;
+    padding: 0px;
+    background-image: url(Gallery/Japan/pixelcity.png);
+    background-size: cover;
+    background-position: left;
+    background-repeat: repeat;
+    color: #4AAFFC;
+    text-shadow: 0px 0px 1em #4893FA;
+    font-size: 2.5vw;
+    /*font-family: 'Caesar Dressing', cursive;*/
+    font-family: 'VT323', monospace;
+    overflow-y: hidden;
+    overflow-x: hidden;
+}
+.maindiv {
+    position: relative;
+    width: 45%;
+    margin: 0;
+    padding: 0;
+}
+.maindiv li p{
+    cursor: pointer;
+}
+.listmain {
+    width: 100%;
+    margin: auto;
+    padding: 0;
+    list-style-type: none;
+}
+.listmain li {           /*change according to your's display resolution(if needed)*/
+    display: inline-block;
+    text-align: center;
+    transition: 0.5s;
+    padding: 0% 8%;
+}
+.secdiv {                /*change according to your's display resolution(if needed)*/
+    position: relative;
+    left: 60%;
+    padding: 0;
+    width: 13%;
+    height: 12em;
+}
+#ulhide1 {               /*change according to your's display resolution(if needed)*/
+    position: absolute;
+    top: 1.2em;
+    width: 100%;
+    visibility: hidden;
+    padding: 0;
+    opacity: 0;
+    list-style-type: none;
+    text-align: center;
+    transition: all 0.5s linear;
+    /*                                            If you want a box around the links
+    box-shadow: 0em 0em 2em rgb(37, 30, 214);
+    background-color: rgba(37, 30, 214, 0.46);
+    border: 0em solid #0000ff;
+    border-radius: 10em;
+    */
+}
+#ulhide1 li {            /*change according to your's display resolution(if needed)*/
+    width: 100%;
+    padding: 4%;
+}
+#ulhide2 {               /*change according to your's display resolution(if needed)*/
+    position: absolute;
+    top: 1.2em;
+    visibility: hidden;
+    width: 100%;
+    padding: 0;
+    opacity: 0;
+    list-style-type: none;
+    text-align: center;
+    transition: all 0.5s linear;
+    /*                                            If you want a box around the links
+    box-shadow: 0em 0em 2em rgb(37, 30, 214);
+    background-color: rgba(37, 30, 214, 0.46);
+    border: 0em solid #0000ff;
+    border-radius: 10em;
+    */
+}
+#ulhide2 li {            /*change according to your's display resolution(if needed)*/
+    width: 100%;
+    padding: 4% 4%;
+}
+#ulhide3 {               /*change according to your's display resolution(if needed)*/
+    position: absolute;
+    top: 1.2em;
+    visibility: hidden;
+    width: 100%;
+    padding: 0;
+    opacity: 0;
+    list-style-type: none;
+    text-align: center;
+    transition: all 0.5s linear;
+    /*                                            If you want a box around the links
+    box-shadow: 0em 0em 2em rgb(37, 30, 214);
+    background-color: rgba(37, 30, 214, 0.46);
+    border: 0em solid #0000ff;
+    border-radius: 10em;
+    */
+}
+#ulhide3 li {            /*change according to your's display resolution(if needed)*/
+    width: 100%;
+    padding: 4%;
+}
+a {
+    position: relative;
+    color: #4AAFFC;
+    text-shadow: 0px 0px 5px #4893FA;
+    text-decoration: none;
+    transition: all 0.2s linear;
+    right: 4%;
+}
+li {
+    opacity: 0.9;
+}
+a:hover, .listmain li:hover{
+    opacity: 1;
+    color: #be132d; /*rgb(254, 19, 84)*/
+    text-shadow: 0px 0px 5px #ff0000;
+    transition: all 0.2s linear;
+}
+#time {                /*change according to your's display resolution(if needed)*/
+    position: relative;
+    left: 29.5em;
+    bottom: 2.6em;
+    opacity: 0.95;
+    margin: 0;
+    width: 5%;
+}
+.headerSearch {        /*change according to your's display resolution(if needed)*/
+    position: relative;
+    bottom: 11em;
+    left: 42vw;
+    width: 20vw;
+}
+input {
+    position: relative;
+    background-color: rgba(66, 64, 64, 0);
+    border: 0px;
+    outline: none;
+    width: 100%;
+    color: #4AAFFC;
+    text-shadow: 0px 0px 2px #4893FA;
+    font-family: 'VT323', monospace;
+}
+input::-webkit-input-placeholder {
+    position: relative;
+    color: #4AAFFC;
+    left: 0.5vw;
+}
+:-moz-placeholder { /* Firefox 18- */
+    opacity: 1 !important;
+}
+::-moz-placeholder {  /* Firefox 19+ */
+    opacity: 1 !important;
+}
