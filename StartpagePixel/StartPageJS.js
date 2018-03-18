@@ -61,7 +61,7 @@ function showTime() {
 showTime();
 setInterval(showTime, 1000);
 
-//Do Nothing If Nothing Typed//
+//Do Nothing If Nothing Typed In The Search Box//
 function noValueFunc(){
     if (document.getElementById("tsb").value.length >= 1){
         return true;
