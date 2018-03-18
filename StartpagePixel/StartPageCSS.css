@@ -5,7 +5,7 @@ html {
 body {                /*change according to your's display resolution(if needed)*/
     margin-top: 11.3%;
     padding: 0px;
-    background-image: url(Gallery/Japan/pixelcity.png);
+    background-image: url(/*Your picture here*/);
     background-size: cover;
     background-position: left;
     background-repeat: repeat;
