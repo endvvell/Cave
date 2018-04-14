@@ -4,8 +4,8 @@ The code is a mess in some places, and I am aware of it.
 
 Some problems with code:
 The page is not responsive to the size of the window.
-The elements are not the size they need to be.
-/
+...
 And probably a few more thing...
 
-Enjoy, I guess :D
+Preview:
+![atl text](https://github.com/MadSmileyman/Cave/blob/master/Startpage/PreviewScreenshot.png)
