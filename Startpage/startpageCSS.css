@@ -9,10 +9,10 @@ body {
     /*font-family: 'VT323', monospace;*/
     font-family: 'Caveat', cursive;
     background-image: url(Wall.png);
-    background-size: 100%;
+    background-size: 110%;
     background-position: 0% 50%;
 }
-@media (min-width: 1000px){
+@media only screen and (device-width:768px){
     body {
         background-size: 135%;
     }
