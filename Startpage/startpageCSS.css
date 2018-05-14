@@ -10,7 +10,12 @@ body {
     font-family: 'Caveat', cursive;
     background-image: url(Wall.png);
     background-size: 100%;
-    background-position: 0% 30%;
+    background-position: 0% 50%;
+}
+@media (min-width: 1000px){
+    body {
+        background-size: 135%;
+    }
 }
 .headerHello {
     position: relative;
@@ -83,6 +88,9 @@ input::-webkit-input-placeholder {
 }
 .inside ul{
     margin: 0px 40px;
+}
+#li1, #li2, #li3 {
+    margin: 0vw 1vw;
 }
 .intres, .study, .other {
     padding: 0px;
