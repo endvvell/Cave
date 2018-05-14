@@ -4,7 +4,7 @@ body {
     height: 100vh;
     max-height: 100vh;
     background-color: #ffffff;
-    color: rgba(230, 127, 118, 0.91);
+    color: rgba(230, 127, 118, 0.95);
     font-size: 2.4vw;
     /*font-family: 'VT323', monospace;*/
     font-family: 'Caveat', cursive;
@@ -28,13 +28,13 @@ input {
     border: 0px;
     outline: none;
     width: 100%;
-    color: rgba(230, 127, 118, 0.91);
+    color: rgba(230, 127, 118, 0.95);
     text-align: center;
     font-size: 4vw;
     font-family: 'Caveat', cursive;
 }
 input::-webkit-input-placeholder {
-    color: rgba(230, 127, 118, 0.91);
+    color: rgba(230, 127, 118, 0.95);
 }
 .timeline {
     text-align: center;
