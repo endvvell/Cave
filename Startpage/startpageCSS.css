@@ -5,16 +5,36 @@ body {
     max-height: 100vh;
     background-color: #ffffff;
     color: rgba(230, 127, 118, 0.95);
-    font-size: 2.4vw;
+    font-size: 2.2vw;
     /*font-family: 'VT323', monospace;*/
     font-family: 'Caveat', cursive;
     background-image: url(Wall.png);
     background-size: 110%;
     background-position: 0% 50%;
 }
-@media only screen and (device-width:768px){
+@media screen and (max-width: 1060px){
     body {
         background-size: 135%;
+    }
+}
+@media screen and (max-width: 839px){
+    body {
+        background-size: 150%;
+    }
+}
+@media screen and (max-width: 777px){
+    body {
+        background-size: 175%;
+    }
+}
+@media screen and (max-width: 660px){
+    body {
+        background-size: 200%;
+    }
+}
+@media screen and (max-width: 580px){
+    body {
+        background-size: 270%;
     }
 }
 .headerHello {
@@ -70,7 +90,7 @@ input::-webkit-input-placeholder {
     margin: auto;
     top: 20vh;
     width: 55vw;
-    height: 22vw;
+    height: vh;
     background-color: rgba(66, 64, 64, 0.4);
 }
 .list1 ul{
@@ -79,15 +99,11 @@ input::-webkit-input-placeholder {
     letter-spacing: 2.5px;
 }
 .inside {
-    top: 2vh;
     display: flex;
     justify-content: center;
     padding: 1vw;
     margin: 0;
     position: relative;
-}
-.inside ul{
-    margin: 0px 40px;
 }
 #li1, #li2, #li3 {
     margin: 0vw 1vw;
